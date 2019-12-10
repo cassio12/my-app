@@ -1,0 +1,90 @@
+.App{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+/* .box-botao {
+  width: 30%;
+} */
+/* .botao {
+  width: 100%;
+  height: 5vh;
+} */
+#label {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  margin-bottom: 2rem;
+}
+.box-saida {
+  width: 50%;
+  padding: .5rem;
+  border: solid 1px ;
+}
+.box-butons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --------- emoji --------- */
+
+.container {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #d1d1d1;
+}
+.box-pesquisa {
+  width: 50%;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50px;
+  box-shadow: grey -1px 8px 38px
+}
+#input {
+  width: 75%;
+  font-size: 1.5rem;
+  border: none;   
+  outline: 0;
+}
+.imgButton {
+  width: 50%;
+}
+.button {
+  width: 17%;
+  height: 4rem;
+  border-radius: 50%;
+  border-width: 0;
+  background-color: black;
+  outline: 0;
+  box-shadow: grey -1px 8px 38px
+}
+
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
