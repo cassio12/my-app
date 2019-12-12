@@ -38,8 +38,8 @@ class Emoji extends React.Component {
 						icon: '🐉',
 					},
 					{
-						nome: 'bat',
-						icon: '🦇',
+						nome: 'bird',
+						icon: '🐦',
 					},
 					{
 						nome: 'hi-5',
